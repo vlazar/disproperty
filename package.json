@@ -1,0 +1,35 @@
+{
+  "name": "disproperty",
+  "version": "0.1.0",
+  "description": "Disposable properties",
+  "main": "lib/disproperty.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "karma start --single-run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vlazar/disproperty.git"
+  },
+  "keywords": [
+    "disposable",
+    "property",
+    "properties",
+    "define"
+  ],
+  "author": "Vladislav Zarakovsky <vlad.zar@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vlazar/disproperty/issues"
+  },
+  "homepage": "https://github.com/vlazar/disproperty",
+  "devDependencies": {
+    "jasmine-core": "^2.3.4",
+    "karma": "^0.12.32",
+    "karma-chrome-launcher": "^0.1.12",
+    "karma-jasmine": "^0.3.5"
+  }
+}
