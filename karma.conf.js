@@ -5,7 +5,13 @@ module.exports = function(config) {
       'lib/**/*.js',
       'test/**/*Spec.js'
     ],
-    browsers: ['Chrome'],
+    browsers: process.env.TRAVIS ? ['ChromeTravisCI'] : ['Chrome'],
+    customLaunchers: {
+      ChromeTravisCI: {
+        base: 'Chrome',
+        flags: ['--no-sandbox']
+      }
+    },
     reporters: ['progress'],
     port: 9876,
     colors: true,
