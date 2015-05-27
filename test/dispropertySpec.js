@@ -1,23 +1,31 @@
 describe('Disposable property', function() {
 
-  var obj;
+  var obj, result;
 
   beforeEach(function() {
     obj = {};
-    disproperty(obj, 'sticker', 'JS');
+    result = disproperty(obj, 'sticker', 'JS');
   });
 
-  it('is defined', function() {
+  it('defines property', function() {
     expect(obj.hasOwnProperty('sticker')).toBe(true);
   });
 
-  it('has assigned value', function() {
-    expect(obj.sticker).toBe('JS');
+  it('returns original object back', function() {
+    expect(result).toBe(obj);
   });
 
-  it('is disposed after first read', function() {
-    obj.sticker;
-    expect(obj.hasOwnProperty('sticker')).toBe(false);
+  describe('when defined', function() {
+
+    it('has assigned value', function() {
+      expect(obj.sticker).toBe('JS');
+    });
+
+    it('is disposed after first read', function() {
+      obj.sticker;
+      expect(obj.hasOwnProperty('sticker')).toBe(false);
+    });
+
   });
 
   describe('when changed', function() {
