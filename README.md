@@ -1,4 +1,4 @@
-# disproperty [![npm version](https://img.shields.io/npm/v/disproperty.svg)](https://www.npmjs.com/package/disproperty) [![Build Status](https://img.shields.io/travis/vlazar/disproperty.svg)](https://travis-ci.org/vlazar/disproperty)
+# disproperty [![npm version](https://img.shields.io/npm/v/disproperty.svg)](https://www.npmjs.com/package/disproperty) [![Build Status](https://img.shields.io/travis/vlazar/disproperty.svg)](https://travis-ci.org/vlazar/disproperty) [![Code Climate](https://img.shields.io/codeclimate/github/vlazar/disproperty.svg)](https://codeclimate.com/github/vlazar/disproperty) [![Test Coverage](https://img.shields.io/codeclimate/coverage/github/vlazar/disproperty.svg)](https://codeclimate.com/github/vlazar/disproperty/coverage)
 
 Disposable properties.
 
