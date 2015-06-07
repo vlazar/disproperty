@@ -1,6 +1,6 @@
 {
   "name": "disproperty",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "Disposable properties",
   "main": "lib/disproperty.js",
   "directories": {
