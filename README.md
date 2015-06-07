@@ -4,9 +4,7 @@
 [![Code Climate](https://img.shields.io/codeclimate/github/vlazar/disproperty.svg)](https://codeclimate.com/github/vlazar/disproperty)
 [![Test Coverage](https://img.shields.io/codeclimate/coverage/github/vlazar/disproperty.svg)](https://codeclimate.com/github/vlazar/disproperty/coverage)
 
-Disposable properties.
-
-> Define properties to be automatically removed after the first read.
+Define properties to be automatically removed after the first read.
 
 ## Usage
 
